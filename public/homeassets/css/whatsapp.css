@@ -1,0 +1,158 @@
+/* div#openPopupBtn .fa-whatsapp {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 11px 9px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 70px;
+    left: 30px;
+    background-color: #39B54A;
+}
+#openPopupBtn .icon-whats:hover p {
+    display: block;
+    padding-left: 18px;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+} */
+/* #contactPopup {
+    display: none;
+    position: fixed;
+    left: 30px;
+    bottom: 50px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    z-index: 9999;
+}
+
+#popupContent {
+    text-align: center;
+}
+#closePopupBtn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+} */
+div#contactPopup {
+    height: 0;
+}
+.icon-whats {
+    position: fixed;
+    bottom: 70px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #39B54A;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    text-align: right;
+    z-index: 11;
+    cursor: pointer;
+    padding: 22px;
+}
+.icon-whats p {
+    margin-bottom: 0px;
+    display: none;
+    width: 170px;
+}
+.icon-whats .fa-whatsapp {
+    font-size: 30px;
+    left: 50%;
+    top: 50%;
+    transform: translateX(10px);
+}
+.icon-whats:hover {
+    width: 250px;
+}
+.icon-whats:hover  p {
+    display: block;
+}
+.card {
+    border-radius: 12px;
+    position: fixed;
+    left: 30px;
+    bottom: 50px;
+    width: 300px;
+    height: 350px;
+    transition: all 0.3s ease;
+    z-index: 111;
+}
+.card .card-title {
+    background: #295D54 0% 0% no-repeat padding-box;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    margin-bottom: 8px;
+}
+.card .card-title .card-person img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+.card .card-title .card-person p {
+    font-size: 15px;
+    margin-right: 10px;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.card .card-title svg.svg-inline--fa.fa-xmark {
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    padding: 3px;
+    margin-top: -14px;
+    cursor: pointer;
+}
+.card-message {
+    text-align: right;
+    background-image: url(../imgs/BG.png);
+    width: 100%;
+    height: 200px;
+    margin-top: -12px;
+}
+.card-message .message {
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px 0;
+    margin-left: 30px;
+    margin-right: 5px;
+    font-size: 15px;
+}
+.card-message .message p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.6;
+}
+.card .card-footer {
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+.card .card-footer div#openPopupBtn {
+    background-color: #39B54A;
+    border-radius: 50px;
+    padding: 7px;
+    color: #fff;
+    cursor: pointer;
+}
+.card .card-footer div#openPopupBtn svg.svg-inline--fa.fa-whatsapp {
+    font-size: 27px;
+}
+.card .card-footer div#openPopupBtn p {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+}
