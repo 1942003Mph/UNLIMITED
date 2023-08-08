@@ -28,7 +28,7 @@
                     <!-- Overlay -->
                     <div class="overlay" id="overlay"></div>
     
-                    <button id="openBtn" class="btn btn-primary   main-btn">Open Popup</button>
+                    <button id="openBtn" class="btn btn-primary    main-btn">Open Popup</button>
                     <div id="overlay"></div>
                     <div id="popup">
                         <span id="closeBtn">&times;</span>

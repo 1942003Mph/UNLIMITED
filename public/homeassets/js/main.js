@@ -23,6 +23,7 @@
 // });
 document.addEventListener("DOMContentLoaded", function() {
   const openBtn = document.getElementById("openBtn");
+  const openBtnslider = document.getElementById("openBtnslider");
   const overlay = document.getElementById("overlay");
   const popup = document.getElementById("popup");
   const closeBtn = document.getElementById("closeBtn");
@@ -31,7 +32,10 @@ document.addEventListener("DOMContentLoaded", function() {
     overlay.style.display = "block";
     popup.style.display = "block";
   });
-
+  openBtnslider.addEventListener("click", function() {
+    overlay.style.display = "block";
+    popup.style.display = "block";
+  });
   closeBtn.addEventListener("click", function() {
     overlay.style.display = "none";
     popup.style.display = "none";

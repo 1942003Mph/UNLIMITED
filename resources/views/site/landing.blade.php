@@ -24,9 +24,9 @@
                
                 <div class="col-lg-6 mb-4 text-center text-md-end">
                     <div id="featurs" class="text">
-                        {{-- <h3>{{ $sliders->title }}</h3>  --}}
+                        <h3>{{ $sliders->title }}</h3> 
                         <p class="text-black-50 fs-6">{!! $sliders->content !!}</p>
-                            <a class="btn btn-primary  main-btn" href="#overlay">اطلب مشروعك </a>
+                            <a id="openBtnslider" class="btn btn-primary  main-btn" href="#overlay">اطلب مشروعك </a>
                             <a class="btn btn-primary  main-btn white" href="#">معرض اعمالنا </a>
                     </div>
                 </div>
